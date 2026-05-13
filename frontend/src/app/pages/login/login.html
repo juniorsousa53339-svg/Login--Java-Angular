@@ -1,0 +1,29 @@
+<div class="overlay"></div>
+
+<div class="formulario">
+  <h1>Login</h1>
+
+  <div class="caixa-formulario">
+    <input
+      type="text"
+      [(ngModel)]="username"
+      placeholder="Usuário"
+    />
+    <i class="bx bxs-user"></i>
+  </div>
+
+  <div class="caixa-formulario">
+    <input
+      type="password"
+      [(ngModel)]="password"
+      placeholder="Senha"
+    />
+    <i class="bx bxs-lock-alt"></i>
+  </div>
+
+  <div class="mensagem-login" [class.admin-success]="!erro">
+    {{ erro }}
+  </div>
+
+  <button (click)="logar()">Entrar</button>
+</div>
