@@ -1,57 +1,111 @@
-# 🔐 Full Stack Login System (In Progress)
+# 🔐 Full Stack Login System
 
-> Este projeto é a base técnica de autenticação que será integrada ao meu futuro sistema de agendamento. Desenvolvido como um treino prático, o foco atual é a robustez do Back-end e a futura integração com uma interface moderna em Angular.
-
----
-
-## 🚀 Status do Projeto: Back-end Concluído
-
-Atualmente, a camada de inteligência da aplicação está totalmente funcional.
-*   **Back-end:** Finalizado, com lógica de autenticação e persistência de dados.
-*   **Validação:** Todas as rotas e endpoints foram rigorosamente testados via **Postman**, garantindo que as requisições REST e as respostas JSON estejam operando conforme o planejado.
-*   **Front-end:** Em fase de planejamento e desenvolvimento inicial utilizando Angular 17.
+> Este projeto é a base técnica de autenticação que será integrada ao meu futuro sistema de agendamento. Desenvolvido como um treino prático, o foco foi a construção de um sistema seguro, funcional e escalável utilizando Java e Angular.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 🚀 Status do Projeto
 
-### **Back-end (Pronto)**
-*   **Linguagem:** Java 17.
-*   **Framework:** Estrutura REST para gerenciamento de requisições.
-*   **Banco de Dados:** H2 Database (utilizado para facilitar a execução local e testes rápidos).
-*   **Testes:** Validação de fluxos de login e segurança via Postman.
+✔️ **Projeto finalizado com sucesso**
 
-### **Front-end (Em breve)**
-*   **Framework:** Angular 17.
-*   **Objetivo:** Criar uma interface dinâmica, responsiva e integrada à API Java.
+O sistema de login foi totalmente desenvolvido, testado e integrado entre backend e frontend.
+
+- **Back-end:** Concluído, com autenticação, segurança e persistência de dados funcionando corretamente.
+- **Front-end:** Desenvolvido em Angular e integrado à API Java.
+- **Testes:** Realizados via Postman para validação completa dos endpoints REST.
 
 ---
 
-## 📊 Composição do Projeto (Meta Final)
+## 🛠️ Tecnologias Utilizadas
 
-O projeto está sendo construído para atingir o equilíbrio total entre as camadas:
+### 🔙 Back-end
+- Java 17  
+- Spring Boot / Spring Security  
+- Security Config  
+- Filter para autenticação e geração de token  
+- H2 Database (banco em memória para testes)  
+- API REST  
 
-![Java](https://img.shields.io/badge/Java-50%25-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-50%25-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+### 🎨 Front-end
+- Angular 17  
+- Integração com API REST  
+- Fluxo completo de login e dashboard  
 
----
-
-## 🧠 Aprendizados e Prática
-
-Este repositório está sendo fundamental para consolidar:
-*   [x] Construção de **APIs REST** em Java.
-*   [x] Persistência de dados e configuração de banco de dados **H2**.
-*   [x] Lógica de **autenticação** e segurança no Back-end.
-*   [ ] Integração Full Stack (Próximo passo).
-*   [ ] Desenvolvimento de componentes dinâmicos com Angular.
-
----
-
-## 🏗️ Evolução
-
-Este sistema servirá como o módulo de acesso para o meu projeto de agendamento principal (**Barber Pro System**), onde aplicarei conceitos de Clean Code e arquitetura em camadas.
+### 🧪 Testes
+- Postman (validação de rotas e autenticação)
 
 ---
 
-**Desenvolvido por Luciano Luís de Sousa Júnior**  
-*Estudante de Análise e Desenvolvimento de Sistemas - Senac SP*
+## 🔐 Funcionalidades
+
+- Sistema de login funcional full stack  
+- Autenticação com Spring Security  
+- Geração e validação de token via filter  
+- Controle de acesso por roles:
+  - 👑 Proprietário  
+  - 👨‍💼 Funcionário  
+- Redirecionamento para dashboard após login válido  
+
+---
+
+## 📸 Preview do Sistema
+
+👉 Cole aqui a imagem do login:
+
+# 🔐 Full Stack Login System
+
+> Este projeto é a base técnica de autenticação que será integrada ao meu futuro sistema de agendamento. Desenvolvido como um treino prático, o foco foi a construção de um sistema seguro, funcional e escalável utilizando Java e Angular.
+
+---
+
+## 🚀 Status do Projeto
+
+✔️ **Projeto finalizado com sucesso**
+
+O sistema de login foi totalmente desenvolvido, testado e integrado entre backend e frontend.
+
+- **Back-end:** Concluído, com autenticação, segurança e persistência de dados funcionando corretamente.
+- **Front-end:** Desenvolvido em Angular e integrado à API Java.
+- **Testes:** Realizados via Postman para validação completa dos endpoints REST.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### 🔙 Back-end
+- Java 17  
+- Spring Boot / Spring Security  
+- Security Config  
+- Filter para autenticação e geração de token  
+- H2 Database (banco em memória para testes)  
+- API REST  
+
+### 🎨 Front-end
+- Angular 17  
+- Integração com API REST  
+- Fluxo completo de login e dashboard  
+
+### 🧪 Testes
+- Postman (validação de rotas e autenticação)
+
+---
+
+## 🔐 Funcionalidades
+
+- Sistema de login funcional full stack  
+- Autenticação com Spring Security  
+- Geração e validação de token via filter  
+- Controle de acesso por roles:
+  - 👑 Proprietário  
+  - 👨‍💼 Funcionário  
+- Redirecionamento para dashboard após login válido  
+
+---
+
+## 📸 Preview do Sistema
+
+<img width="1600" height="875" alt="WhatsApp Image 2026-05-13 at 21 32 32" src="https://github.com/user-attachments/assets/f582589b-1277-484f-8de3-bf8646ea71e6" />
+
+
+<img width="1600" height="866" alt="WhatsApp Image 2026-05-13 at 21 33 57" src="https://github.com/user-attachments/assets/99630b3b-915b-4071-835d-89e384f30820" />
+
